@@ -110,3 +110,15 @@ function clearOtpFields() {
     document.getElementById("otp3").value = '';
     document.getElementById("otp4").value = '';
 }
+
+// loader start here
+
+const myLoader = document.getElementById("loader");
+
+// Show the loader as soon as the script runs
+myLoader.style.display = "block";
+
+// Hide the loader after 1 second
+setTimeout(() => {
+    myLoader.style.display = "none";
+}, 1000);
