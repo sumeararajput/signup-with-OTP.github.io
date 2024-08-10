@@ -48,8 +48,9 @@ function signin() {
         containerClose.style.display = "none";
         let otpopen = document.getElementById("containerotp");
         otpopen.style.display = "flex";
-        alert("Sign in successful");
-    } 
+        // alert("Sign in successful");
+      
+    }
     else {
         alert("Invalid username or password");
     }
@@ -121,4 +122,4 @@ myLoader.style.display = "block";
 // Hide the loader after 1 second
 setTimeout(() => {
     myLoader.style.display = "none";
-}, 1000);
+}, 2000);
